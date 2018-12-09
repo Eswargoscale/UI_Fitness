@@ -68,7 +68,7 @@ $(document).ready(function() {
 });
 /* Window scroll */
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 70) {
+    if ($(window).scrollTop() > 90) {
         $("body").addClass('small-header top-full');
     } else {
         $("body").removeClass('small-header');
